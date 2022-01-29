@@ -1,6 +1,6 @@
 # RISCV
 
-The functioning of the various modules used for integration in the main module is as follows:
+The functioning of the various modules used for integration in the main module (uProcessor) is as follows:
 (1) ALU : It performs different Arithmetic and Logical operations. The ALU takes two inputs (regA, regB) in 16 bits integer format and generates
 a 16 bit output aluout in integer format. A 1 bit flag eq_flag has to be set to high whenever all the bits in regD are zero.
 (2) Program Counter : Program counter is a register containing the location of the currently executing instruction. Based on the opcode provided by the Control unit, the current state of the program counter is determined.
